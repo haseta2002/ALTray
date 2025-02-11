@@ -1,0 +1,17 @@
+LIBRARY 		ALTray		 ; Application's module name
+DESCRIPTION 	'AL-Mail32 Plug Library'
+
+EXPORTS
+	APCGetPlugName         @1
+	APCVersionInfo         @2
+	APCStartUp             @3
+;	APCCleanUp             @4
+	APCSetup               @5
+;	APCRecFilter           @6
+
+	APCFolderCreate      @100
+	APCFolderClose       @101
+
+;	APCViewLoadMail      @203
+
+;	APCSendPost          @303
